@@ -43,5 +43,17 @@
 - ✓ *GoToQuestsTest() - Переход к странице курса на https://javarush.com/*
 
 ## :pushpin: Запуск тестов
+
+Для запуска тестов на Selenoid использовать команду ниже:
+
+```
+gradle test -Denv=remote
+```
+
+Для запуска тестов локально использовать команду ниже:
+
+```
+gradle test -Denv=local
+```
    
 
