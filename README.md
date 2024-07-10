@@ -47,13 +47,13 @@
 Для запуска тестов на Selenoid использовать команду ниже:
 
 ```
-gradle test -Denv=remote
+gradle clean test -Denv=remote
 ```
 
 Для запуска тестов локально использовать команду ниже:
 
 ```
-gradle test -Denv=local
+gradle clean test -Denv=local
 ```
    
 
