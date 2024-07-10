@@ -11,27 +11,25 @@ import org.aeonbits.owner.Config;
 })
 
 public interface WebConfig extends Config {
-    @Key("browser")
+
+    @DefaultValue("firefox")
     Browser browser();
 
-    @Key("baseUrl")
+    @DefaultValue("https://javarush.com/")
     String baseUrl();
 
-    @Key("browserVersion")
+    @DefaultValue("127.0")
     String browserVersion();
 
-    @Key("browserSize")
+    @DefaultValue("1920x1080")
     String browserSize();
 
-    @Key("pageLoadStrategy")
+    @DefaultValue("eager")
     String pageLoadStrategy();
 
-    @Key("holdBrowserOpen")
-    Boolean holdBrowserOpen();
-
-    @Key("isRemote")
+    @DefaultValue("false")
     Boolean isRemote();
 
-    @Key("remoteUrl")
+    @DefaultValue("https://javarush.com/")
     String remoteUrl();
 }
