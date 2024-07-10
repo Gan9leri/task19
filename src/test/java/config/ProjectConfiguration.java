@@ -16,7 +16,6 @@ public class ProjectConfiguration {
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
         Configuration.pageLoadStrategy = webConfig.pageLoadStrategy();
-        Configuration.holdBrowserOpen = webConfig.holdBrowserOpen();
         if(webConfig.isRemote()){
             Configuration.remote = webConfig.remoteUrl();
         }
